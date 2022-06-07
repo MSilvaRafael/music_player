@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(55, 77, 88);
+    color: rgb(245, 245, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.descricao{
+    width: 300px;
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+
+.tempo{
+    display: flex;
+    margin: 15px 0 15px 0;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid rgb(245, 250, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0;
+    background-color: rgb(200, 250, 255);
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(200, 250, 255);
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 25px 0;
+}
+
+.btn-play, .btn-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.btn-pause{
+    display: none;
+}
+
+.btn-bw, .btn-fw{
+    font-size: 40px;
+    cursor: pointer;
+}
+
